@@ -37,7 +37,7 @@ function errorHandler(string : string, sep : string) {
     return errorMessage;
 }
 
-function getDigitsToAdd(string : string, sep : string) {
+function getDigitsToAdd(string: string) {
     let digitArray : Array<number> = [];
     if (string.startsWith("//"))
         string = string.slice(4);
@@ -53,7 +53,7 @@ export function add(string="0") {
     let errorMessage = errorHandler(string, sep);
     if (errorMessage)
         return errorMessage;
-    let digits : Array<number> = getDigitsToAdd(string, sep);
+    let digits : Array<number> = getDigitsToAdd(string);
     let res : number = digits.reduce((accumulator, currentValue) => accumulator + currentValue);
     string = res.toString();
     return string;

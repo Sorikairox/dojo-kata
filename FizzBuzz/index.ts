@@ -13,3 +13,5 @@ function FizzBuzzLoop(iterMax : number) {
             console.log(index)
     }
 }
+
+FizzBuzzLoop(20);
