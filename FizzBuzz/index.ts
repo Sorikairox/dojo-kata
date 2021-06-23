@@ -1,6 +1,4 @@
 import { isFizz, isBuzz, isFizzBuzz } from "./fizzbuzz";
-const express = require('express');
-const app = express()
 
 function FizzBuzzLoop(iterMax : number) {
 
