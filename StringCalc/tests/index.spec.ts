@@ -1,6 +1,6 @@
 import "mocha"
 import { expect } from "chai"
-import { add, getSeparator } from "./index";
+import { add, getSeparator } from "../src";
 
 describe('Separator', function () {
     it('should return the correct separator', function () {

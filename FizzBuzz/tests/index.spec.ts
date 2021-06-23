@@ -1,6 +1,6 @@
 import "mocha"
 import { expect } from "chai"
-import { isFizz, isBuzz, isFizzBuzz } from "./fizzbuzz";
+import { isFizz, isBuzz, isFizzBuzz } from "../src/fizzbuzz";
 
 describe('isFizz', function () {
     it('should return true (3)', function () {

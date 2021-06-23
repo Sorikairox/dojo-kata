@@ -1,6 +1,6 @@
 import "mocha"
 import { expect } from "chai"
-import { missingNumber, negativeNumber, checkSeparator } from "./errors";
+import { missingNumber, negativeNumber, checkSeparator } from "../src/errors";
 
 describe('SeparatorError', function () {
     it('should return an error message when multiple separators are used at once', function () {

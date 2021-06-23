@@ -1,6 +1,6 @@
 import "mocha"
 import { expect } from "chai"
-import { Scoreboard } from "./scoreboard";
+import { Scoreboard } from "../src/scoreboard";
 
 describe('ScoreboardInit', function () {
     it('Initializes', function () {
