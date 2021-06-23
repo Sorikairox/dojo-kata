@@ -1,0 +1,29 @@
+{
+  "name": "roman-numeral-kata",
+  "version": "1.0.0",
+  "description": "Converts digits into roman numeral numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jolan-brizard/roman-numeral-kata.git"
+  },
+  "author": "Jolan Brizard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jolan-brizard/roman-numeral-kata/issues"
+  },
+  "homepage": "https://github.com/jolan-brizard/roman-numeral-kata#readme",
+  "dependencies": {
+    "@types/chai": "^4.2.18",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^15.12.4",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.1",
+    "node": "^16.3.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  }
+}
